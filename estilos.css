@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+form{
+    display: flex;
+}
+
+#publicaciones{
+    border: 2px solid black;
+    height: 50vh;
+    width: 50vw;
+    overflow-y: auto;
+    background-color: rgb(129, 165, 194);
+    margin: 20px;
+
+
+}
